@@ -7,7 +7,7 @@
  * @since 1.0.0
  */
 ?>
-
+		<p>This is a footer.</p>
 		<?php wp_footer(); ?>
 	</body>
 </html>
