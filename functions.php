@@ -31,4 +31,22 @@ function enqueue_theme_style() {
  * See: http://codex.wordpress.org/Function_Reference/wp_enqueue_script
  */
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_style' );
+
+/**
+ * Register the menus used in the theme.
+ *
+ * @since 1.0.0
+ */
+function theme_setup() {
+	register_nav_menus( array(
+		'main_menu' => __('Main Menu', 'je_theme')
+	) );
+}
+/**
+ * Add theme menus
+ *
+ * See: http://codex.wordpress.org/Plugin_API/Action_Reference/after_setup_theme
+ */
+add_action( 'after_setup_theme', 'theme_setup' );
+
 ?>

@@ -5,9 +5,4 @@ Author: Sofia Ringström
 Author URI: http://sofiaringstrom.se
 Description: DESCRIPTION
 Version: 1.0.0
-*/
-
-body {
-	background: #000;
-	color: white;
-}
+*/body{background:#000;color:white}header img{margin:10px 10px 50px 10px}header .menu{float:right;text-align:right}header .menu a{color:white}header .menu .current_page_item a{color:pink}footer{padding:40px 20px;background:green}

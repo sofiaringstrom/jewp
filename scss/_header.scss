@@ -1,0 +1,15 @@
+header{
+	img{
+		margin: 10px 10px 50px 10px;
+	}
+	.menu{
+		a{
+			color: white;
+		}
+		.current_page_item a{
+			color: pink; // ändra till rätt färg enligt skiss
+		}
+		float: right;
+		text-align: right;
+	}
+}

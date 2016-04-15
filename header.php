@@ -30,5 +30,16 @@
 </head>
 
 <body>
-
-	<p>This is a header.</p>
+  <header>
+    <img src="http://placehold.it/250x60">
+  	<?php
+    wp_nav_menu( array(
+    		'theme_location' => 'main_menu',
+    		'depth' => 2,
+    		'container' => false,
+    		'menu_class' => 'menu vertical medium-horizontal',
+    		fallback_cb => 'wp_page_menu'
+    	)
+    );
+    ?>
+  </header>
