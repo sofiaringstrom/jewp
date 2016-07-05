@@ -1,4 +1,12 @@
 footer{
 	padding: 40px 20px;
-	background: green;
+	text-align: center;
+	.social-icons{
+		border-radius: 50%;
+		margin: 10px;
+	}
+	p {
+		text-transform: uppercase;
+		margin: 10px;
+	}
 }

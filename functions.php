@@ -24,6 +24,8 @@ function enqueue_theme_style() {
 
 	wp_enqueue_script( 'foundation-min-js', get_template_directory_uri() . '/js/foundation.min.js', array( 'jquery' ), true );
 
+	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/assets/main.js', array( 'jquery' ), true );
+
 }
 /**
  * Enqueue scripts.

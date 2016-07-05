@@ -8,7 +8,12 @@
  */
 ?>
 		<footer>
-			<p>This is a footer.</p>
+			<img class="social-icons" src="http://placehold.it/50x50">
+			<img class="social-icons" src="http://placehold.it/50x50">
+			<img class="social-icons" src="http://placehold.it/50x50">
+			<img class="social-icons" src="http://placehold.it/50x50">
+			
+			<p>Copyright © 2016 Joakim Ekström</p>
 		</footer>
 		<?php wp_footer(); ?>
 	</body>
