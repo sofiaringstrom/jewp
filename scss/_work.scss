@@ -4,10 +4,22 @@
 		max-width: 1050px;
 		width: 100%;
 	}
-	.video-feed {
+	#video-feed{
 		margin-left: -2px;
 		margin-right: -2px;
 		margin-bottom: 8px;
-		outline: 1px solid red; // remove, only for dev
+		.row{
+			max-width: 1050px;
+			.column {
+				padding: 0;
+				float: left;
+				img{
+					margin-bottom: 20px;
+					&:hover{
+						cursor: pointer;
+					}
+				}
+			}
+		}
 	}
 }

@@ -22,20 +22,6 @@
 	</section>
 
 	<section id="video-feed">
-		<!-- <div class="row">
-			<div class="small-12 columns">
-				<img class="video-feed" src="http://placehold.it/350x180">
-				<img class="video-feed" src="http://placehold.it/350x180">
-				<img class="video-feed" src="http://placehold.it/350x180">
-			</div>
-		</div>
-		<div class="row">
-			<div class="small-12 columns">
-				<img class="video-feed" src="http://placehold.it/350x180">
-				<img class="video-feed" src="http://placehold.it/350x180">
-				<img class="video-feed" src="http://placehold.it/350x180">
-			</div>
-		</div> -->
 	</section>
 
 	<?php
