@@ -31,7 +31,9 @@
 
 <body>
   <header>
-    <img src="http://placehold.it/250x60">
+    <img src="<?php echo get_template_directory_uri(); ?>/media/icon_small.png">
+    <span>Joakim Ekström</span>
+    <span>Motion Designer</span>
   	<?php
     wp_nav_menu( array(
     		'theme_location' => 'main_menu',
