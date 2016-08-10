@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Blog
+ * The template for blog
  *
  * @package rngstrm
  * @subpackage JE Theme

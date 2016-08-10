@@ -10,15 +10,25 @@
 
 <?php get_header(); ?>
 
-<h1><?php echo bloginfo( 'name' ); ?></h1>
-<h2>index.php</h2>
-<?php
-	if ( have_posts() ) {
-		while ( have_posts() ) {
-			the_title();
-			the_post();
-		}
-	}
-?>
+<article id="index-template">
+
+	<section>
+		<div class="row">
+			<div class="column small-12">
+				<?php
+					if ( have_posts() ) {
+						while ( have_posts() ) {
+							the_post();
+							the_post_thumbnail();
+							the_content();
+						}
+					}
+				?>
+			</div>
+		</div>
+
+	</section>
+
+</article>
 
 <?php get_footer(); ?>

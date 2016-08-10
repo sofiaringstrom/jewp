@@ -1,0 +1,15 @@
+.wpcf7-form{
+	max-width: 50%;
+	textarea,
+	input {
+		border: none;
+	}
+	input.wpcf7-submit{
+		color: #2d2d2d;
+		background: #edeeee;
+		padding: 10px 30px;
+	}
+	.wpcf7-response-output{
+		border: none;
+	}
+}
