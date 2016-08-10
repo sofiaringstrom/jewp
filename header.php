@@ -31,17 +31,22 @@
 
 <body>
   <header>
-    <img src="<?php echo get_template_directory_uri(); ?>/media/icon_small.png">
-    <span>Joakim Ekström</span>
-    <span>Motion Designer</span>
-  	<?php
-    wp_nav_menu( array(
-    		'theme_location' => 'main_menu',
-    		'depth' => 2,
-    		'container' => false,
-    		'menu_class' => 'menu vertical medium-horizontal',
-    		fallback_cb => 'wp_page_menu'
-    	)
-    );
-    ?>
+    <div class="row collapse">
+      <div class="column small-12">
+        <div id="head">
+          <img class="icon" src="<?php echo get_template_directory_uri(); ?>/media/icon_small.png">
+          <span class="slogan">Joakim Ekström Motion Designer</span>
+        </div>
+      	<?php
+        wp_nav_menu( array(
+        		'theme_location' => 'main_menu',
+        		'depth' => 2,
+        		'container' => false,
+        		'menu_class' => 'menu vertical medium-horizontal',
+        		fallback_cb => 'wp_page_menu'
+        	)
+        );
+        ?>
+      </div>
+    </div>
   </header>
