@@ -8,10 +8,10 @@
  */
 ?>
 		<footer>
-			<img class="social-icons" src="http://placehold.it/50x50">
-			<img class="social-icons" src="http://placehold.it/50x50">
-			<img class="social-icons" src="http://placehold.it/50x50">
-			<img class="social-icons" src="http://placehold.it/50x50">
+			<a target="_blank" href="https://www.linkedin.com/in/chlamo"><div class="social-icons"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+			<a target="_blank" href="https://twitter.com/Joaquiniuz/"><div class="social-icons"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+			<a target="_blank" href="https://www.behance.net/chlamo"><div class="social-icons"><i class="fa fa-behance" aria-hidden="true"></i></div></a>
+			<a target="_blank" href="http://joakimekstrom.tumblr.com/"><div class="social-icons"><i class="fa fa-tumblr" aria-hidden="true"></i></div></a>
 			
 			<p>Copyright © 2016 Joakim Ekström</p>
 		</footer>

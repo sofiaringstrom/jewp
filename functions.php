@@ -16,6 +16,8 @@ function enqueue_theme_style() {
 
 	wp_enqueue_style( 'foundation-min-style', get_template_directory_uri() . '/css/foundation.min.css' );
 
+	wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+
 	wp_enqueue_style( 'theme-stylesheet', get_template_directory_uri() . '/style.css' );
 
 	wp_deregister_script( 'jquery' );
