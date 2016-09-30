@@ -14,15 +14,14 @@
 	<section>
 		<div class="row video-promoted">
 			<div class="small-12 column flex-video">
-				<video autoplay muted>
-					<source src="<?php echo get_template_directory_uri(); ?>/media/showreel_2015-HD.mp4" type="video/mp4">
-				</video>
 			</div>
 		</div>
 	</section>
 
 	<section id="video-feed">
 	</section>
+
+	<div id="vimeo-overlay" class="hidden"></div>
 
 	<?php
 		/*if ( have_posts() ) {
