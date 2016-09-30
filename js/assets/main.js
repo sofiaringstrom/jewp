@@ -23,9 +23,9 @@ $(document).ready(function() {
       JSONEmbedUrl += videoUrl;
   		JSONEmbedUrl += '/&portrait=false&height=300&byline=false';
 
-      if (i % 3 == 0 && i != 0) {
+      /*if (i % 3 == 0 && i != 0) {
         html += '</div><div class="row collapse">';
-      }
+      }*/
 
       html += '<div class="column small-12 medium-6 large-4 vimeo-thumb" data-id="' + videos[i].id + '"><img src="' + videos[i].thumbnail_large + '" />';
       html += '<div class="thumb-overlay">' + videos[i].title + '</div>';
